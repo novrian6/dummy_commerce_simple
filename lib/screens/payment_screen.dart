@@ -57,7 +57,7 @@ class PaymentScreen extends StatelessWidget {
 
                   // Log purchase event in Firebase Analytics
                    FirebaseAnalytics.instance.logEvent(
-                    name: 'payment',
+                    name: 'purchase',
                     parameters: {
                       'transaction_id': 'T12345', // Replace with actual transaction ID
                       'item_id': product.id,

@@ -35,7 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     // Set current screen
     FirebaseAnalytics.instance.setCurrentScreen(screenName: 'HomeScreen');
-    FirebaseAnalytics.instance.logEvent(name: 'home_screen');
+    FirebaseAnalytics.instance.logEvent(name: 'home_screen_opened');
     return Scaffold(
       backgroundColor: Colors.blueGrey[50], // Soft background
       appBar: AppBar(

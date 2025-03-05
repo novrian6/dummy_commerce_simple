@@ -13,7 +13,7 @@ class ProductDetailScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     // Log view_item event
     FirebaseAnalytics.instance.logEvent(
-      name: 'product_detail',
+      name: 'product_detail_screen_opened',
       parameters: {
         'item_id': product.id,
         'item_name': product.name,

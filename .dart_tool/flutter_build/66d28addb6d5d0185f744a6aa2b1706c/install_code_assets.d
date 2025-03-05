@@ -1,0 +1,1 @@
+ /Users/novanovriansyah/code/flutter/novai_dummy_commerce_simple/.dart_tool/flutter_build/66d28addb6d5d0185f744a6aa2b1706c/native_assets.json: 
